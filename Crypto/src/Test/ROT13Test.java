@@ -63,6 +63,7 @@ public class ROT13Test {
         String actual = cipher.encrypt(Q1);
         System.out.println(Q1);
         System.out.println(A1);
+        System.out.println(actual);
         // Then
         assertTrue(actual.equals(A1));
 
@@ -70,6 +71,7 @@ public class ROT13Test {
         String actual2 = cipher.decrypt(Q2);
         System.out.println(Q2);
         System.out.println(A2);
+        System.out.println(actual2);
         // Then
         assertTrue(actual2.equals(A2));
     }
